@@ -1,17 +1,36 @@
 {
-  "name": "alajs",
+  "name": "@marco.cianetti/alajs",
   "version": "1.0.0",
   "description": "Copy-Paste content attribution. Scale your link building with content attribution.",
   "main": "src/index.js",
-  "repository": "https://github.com/marcocianetti/alajs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcocianetti/alajs.git"
+  },
   "author": "Marco Cianetti",
   "license": "MIT",
   "scripts": {
     "minify": "uglifyjs src/index.js --compress --mangle --warn --output lib/index.min.js",
-    "prod": "npm run version:bump --silent && rm -f lib/index.min.js && npm run minify --silent",
+    "build": "npm run version:bump --silent && rm -f lib/index.min.js && npm run minify --silent",
+    "publish": "npm run build --silent && npm publish --access public",
     "version:bump": "npm version patch --no-git-tag-version --silent"
   },
   "devDependencies": {
     "uglify": "^0.1.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/marcocianetti/alajs/issues"
+  },
+  "homepage": "https://github.com/marcocianetti/alajs#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "keywords": [
+    "javascript",
+    "seo",
+    "content",
+    "link",
+    "attribution"
+  ]
 }

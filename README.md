@@ -1,7 +1,7 @@
 🔗 AlaJS — Automated Link Attribution
 ===
 
-**AlaJS** is a simple snippet that adds the source link of a copied text on a web page.
+**AlaJS** is a simple and light (*less than 750B*) snippet that adds the **source link of a copied text** on a web page.
 
 When a user copies a text on a webpage running this snippet and pastes it,
 the copied text will contain `[Source: website/page-url]` at the end of it.
@@ -13,7 +13,13 @@ Also, **you will be rightfully credited** for your work.
 📝 Installation
 ---
 
-`// TODO: It's CDN stuff. You can use Google Tag Manager for a 3 sec installation.`
+You can install it via CDN.
+
+**Specific version link**
+`https://cdn.jsdelivr.net/gh/marcocianetti/alajs@1.0.0/lib/index.min.js`
+
+**Last version link** (*you should not use this for production*):
+`https://cdn.jsdelivr.net/gh/marcocianetti/alajs/lib/index.min.js`
 
 ❓ Why?
 ---
