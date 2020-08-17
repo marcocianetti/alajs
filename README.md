@@ -42,3 +42,11 @@ but when I found a website with this feature for the first time, and I copy-past
 well I just left its source link on that text because I found it ok, "it deserves to be cited".
 
 It's up to your users.
+
+😇 Support
+---
+
+If you want to support me you can offer me a cup of coffee,
+so I can stay awake fixing (and creating) bugs all night long 🤓☕️
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M422DAG)
